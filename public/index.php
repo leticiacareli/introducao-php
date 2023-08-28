@@ -222,3 +222,20 @@ echo nl2br("\n Divisão = " . $n1 / $n2);
 
 $operacao = ($n1 + $n2) * 5;
 echo nl2br("\n" . $operacao);
+
+//aula 8 - incremento/decremento
+echo nl2br("\n");
+
+$number = 10;
+
+echo ++$number; //pré-incremento
+echo nl2br("\n");
+echo $number++; //pós-incremento
+echo nl2br("\n" . $number);
+
+echo nl2br("\n");
+
+echo --$number; //pré-decremento
+echo nl2br("\n");
+echo $number--; //pós-decremento
+echo nl2br("\n" . $number);
