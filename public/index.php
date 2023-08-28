@@ -239,3 +239,6 @@ echo --$number; //pré-decremento
 echo nl2br("\n");
 echo $number--; //pós-decremento
 echo nl2br("\n" . $number);
+
+//aula 9 - operadores de comparação
+
