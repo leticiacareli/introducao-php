@@ -6,7 +6,6 @@
 
 $n = 6;
 $fatorial = 1;
-$aux = 0;
 
 for($i = 1; $i <= $n; $i++)
 {
