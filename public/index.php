@@ -285,7 +285,7 @@ if(!$value2)
     echo 'valor é falsy';
 }
 
-// aula 12 - condicionais if-else
+// aula 12 - condicionais: if-else
 
 //return
 $isAdmin = true;
@@ -300,3 +300,22 @@ echo 'não é admin';
 
 //operadores ternários
 echo ($isAdmin) ? 'é admin' : 'não é admin';
+
+//aula 13 - condicionais: switch
+
+$isAdmin = true;
+
+switch ($isAdmin)
+{
+    case true:
+        echo 'é admin';
+        break;
+    
+    case false:
+        echo 'não é admin';
+        break;
+    
+    default:
+        echo 'não encontrado';
+        break;
+}
